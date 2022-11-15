@@ -34,5 +34,5 @@ jobs:
     - name: Upload GitHub Artifact
       uses: actions/upload-artifact@v2
       with:
-        name: Iris Plugin
-        path: ./
+        name: Iris Plugin 
+        path: ./build/libs
